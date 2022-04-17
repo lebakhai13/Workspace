@@ -82,6 +82,12 @@ body {
     color: #fff;
     padding: 15px;
     font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal__header-exit {
+    color: #fff;
 }
 
 .modal__body {
