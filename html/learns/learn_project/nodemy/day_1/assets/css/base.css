@@ -5,6 +5,7 @@
     border-radius: 5px;
     cursor: pointer;
     color: var(--white-color);
+    transition: .25s;
 }
 
 .btn:hover{
