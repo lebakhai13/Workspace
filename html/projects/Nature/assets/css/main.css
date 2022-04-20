@@ -4,7 +4,7 @@
     display: flex;   
 }
 
-.tour-nav__img-wrap {
+.tour-nav__item {
     height: 100%;
     flex: 1;
     transition: 0.5s;
@@ -17,9 +17,9 @@
     object-position: center;
 }
 
-.tour-nav__img-wrap:hover {
+.tour-nav__item:hover {
     flex: 4;
 }
 
-.tour-nav__img-wrap:hover .tour-nav__img {
+.tour-nav__item:hover .tour-nav__img {
 }
