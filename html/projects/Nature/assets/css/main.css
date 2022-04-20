@@ -1,0 +1,25 @@
+.tour-nav {
+    height: 100vh;
+    width: 100vw;
+    display: flex;   
+}
+
+.tour-nav__img-wrap {
+    height: 100%;
+    flex: 1;
+    transition: 0.5s;
+}
+
+.tour-nav__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tour-nav__img-wrap:hover {
+    flex: 4;
+}
+
+.tour-nav__img-wrap:hover .tour-nav__img {
+}
