@@ -62,6 +62,7 @@
 .header__img-branch-item.prefix {
     background-color: #000;
     opacity: .75;   
+    border-radius: 5px;
 }
 
 .header__img-branch-item.postfix {
@@ -69,5 +70,24 @@
 }
 
 #content {
-    
+    padding: 16px 32px;
+}
+
+.projects {
+
+}
+
+.projects__header {
+    width: 100%;
+    padding: 32px 16px;
+}
+
+.projects__header-text {
+    width: 100%;
+    font-size: 24px;
+    border-bottom: #f1f1f1 1px solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px 0;
+    margin: 10px 0;
+    display: block;
 }
