@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    transition: 0.5s;
+}
+
+:root {
+    --theme-color: #fff;
+    --second-theme-color: #000;
+}
+
+.header-section {
+    width: 100%;
+    padding: 32px 16px;
+}
+
+.header-text-section {
+    width: 100%;
+    font-size: 24px;
+    border-bottom: #f1f1f1 1px solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px 0;
+    margin: 10px 0;
+    display: block;
+}
+.text-section {
+    margin: 15px 0;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
