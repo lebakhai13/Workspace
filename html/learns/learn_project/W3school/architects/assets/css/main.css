@@ -1,11 +1,12 @@
 #header {
-    width: 100vw;
+    max-width: 100vw;
+    overflow: hidden;
 }
 
 .nav {
     display: flex;
     width: 100%;
-    height: 56px;
+    height: var(--nav-height);
     background-color: var(--theme-color);
     justify-content: space-between;
     padding: 8px 16px;
@@ -72,9 +73,11 @@
 
 #content {
     padding: 16px 32px;
+    overflow: hidden;
 }
 
 #projects {
+    padding-top: var(--nav-height);
 
 }
 .projects__header-text{
@@ -116,6 +119,10 @@
 
 .projects__item:hover .projects__item-img {
     transform: scale(1.2);
+}
+
+#about {
+    padding-top: var(--nav-height);
 }
 
 .about__header-text {
@@ -193,6 +200,11 @@
     background-color: #ccc;
 }
 
+#contact {
+    margin-bottom: 32px;
+    padding-top: var(--nav-height);
+}
+
 .contact__header {
     padding: 0;
 }
@@ -219,4 +231,54 @@
 
 .contact__input:first-child {
     margin-top: 0;
+}
+
+.contact__form-btn {
+    padding: 10px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.contact__form-icon {
+    fill: #fff;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.contact__form-btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.contact__form-btn:hover .contact__form-icon {
+    fill: #000;
+}
+
+#map {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#footer {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    padding: 32px;
+    color: #fff;
+}
+
+.footer-link {
+    margin-left: 5px;
+    color: #fff;
 }

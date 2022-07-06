@@ -13,6 +13,7 @@ body {
 :root {
     --theme-color: #fff;
     --second-theme-color: #000;
+    --nav-height: 56px;
 }
 
 .header-section {
@@ -33,3 +34,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.btn {
+    cursor: pointer;
+}
