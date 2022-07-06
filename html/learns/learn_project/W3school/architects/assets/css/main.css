@@ -276,6 +276,8 @@
     max-width: 100vw;
     padding: 32px;
     color: #fff;
+    background-size: 500% 500%;
+    animation: backgroundMove 15s ease infinite;
 }
 
 .footer-link {
